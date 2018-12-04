@@ -1,0 +1,228 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+  padding-right: 10px;
+}
+
+a:visited {
+  color: seashell;
+}
+
+span {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+nav span {
+  display: inline-block;
+}
+
+/* Sizing */
+
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  width: auto;
+  height: 50px;
+}
+
+/* Main Content */
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  flex-direction: column;
+  position: relative;
+  top: 78px;
+  justify-content: center;
+}
+
+/* mission */
+
+.mission.title {
+  display: inline-flex;
+  justify-content: center;
+  padding-bottom: 45px;
+  align-content: center;
+}
+
+.lead.image {
+  background-image: url(resources/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+}
+
+.mission.description {
+  width: auto;
+  text-align: center;
+  background-color: black;
+  align-self: center;
+  margin-top: 250px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  align-items: center;
+  justify content: center;
+}
+
+/* Tea Types */
+
+.tea.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.tea.header{
+  text-align: center;
+}
+
+.tea.list img {
+  height: 200px;
+  width: 300px;
+}
+
+.row.a {
+  align-items: center;
+}
+
+.row.b {
+  justify-content: space-around;
+}
+
+.fall.berry{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.spiced.rum {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.seasonal.donuts {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.myrtle.ave {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.bedford.bizarre {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+/* locations */
+
+.locations.list {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 1200px;
+  margin-bottom: 10px;
+}
+
+.main {
+  background-image: url(resources/Locations.jpg);
+  height: 500px;
+  width: 1200px;
+}
+
+.cards {
+  width: 1200px;
+  height: 500px;
+  justify-content: space-around;
+  display: inline-flex;
+  align-items: center;
+}
+
+.Downtown {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.East {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.Oakdale {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.text {
+  align-items: center;
+  justify content: center;
+  line-height: 180%;
+}
+
+
+/* footer */
+
+footer {
+  text-align: center;
+}
+
+.contact {
+  height: 200px;
+}
+
+.copywright {
+  text-align: left;
+  padding-left: 20px;
+}
